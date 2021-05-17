@@ -15,6 +15,8 @@ class CreateFederationsTable extends Migration
     {
         Schema::create('federations', function (Blueprint $table) {
             $table->id();
+            $table->string('nome');
+            $table->string('estado');
             $table->timestamps();
         });
     }
