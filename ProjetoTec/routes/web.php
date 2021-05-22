@@ -9,6 +9,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\AuthRegisterController;
 use App\Http\Controllers\SearchEnterpriseController;
+use App\Http\Controllers\InController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +32,7 @@ Route::resource('/federations', FederationController::class);
 Route::resource('/enterprises', EnterpriseController::class);
 Route::resource('/generals', GeneralController::class);
 Route::resource('/search', SearchController::class);
+Route::resource('/in', InController::class);
 Route::get('/searchEnterpriseHome', [SearchEnterpriseController::class, 'index']);
 Route::get('/searchEnterprise', [SearchEnterpriseController::class, 'create']);
 
