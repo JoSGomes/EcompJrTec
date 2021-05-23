@@ -23,7 +23,7 @@ use App\Http\Controllers\InController;
 */
 
 
-Route::resource('/', AuthController::class);
+Route::resource('/', InController::class);
 Route::resource('/auth', AuthController::class);
 Route::resource('/register', RegisterController::class);
 Route::resource('/home', GeneralController::class);
@@ -32,7 +32,7 @@ Route::resource('/federations', FederationController::class);
 Route::resource('/enterprises', EnterpriseController::class);
 Route::resource('/generals', GeneralController::class);
 Route::resource('/search', SearchController::class);
-Route::resource('/in', InController::class);
+Route::resource('/in', AuthController::class);
 Route::get('/searchEnterpriseHome', [SearchEnterpriseController::class, 'index']);
 Route::get('/searchEnterprise', [SearchEnterpriseController::class, 'create']);
 

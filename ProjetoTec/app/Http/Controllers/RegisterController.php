@@ -53,7 +53,7 @@ class RegisterController extends Controller
         $user->password = $senha;
         $user->save();
         
-        return redirect('/');
+        return redirect('/in');
     }
 
     /**

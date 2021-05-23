@@ -46,9 +46,15 @@
                     </tr>
                     @foreach($dataFederations as $federations)
                     <tr>
-                        <td>{{$federations->id}}</td>
-                        <td>{{$federations->nome}}</td>
-                        <td>{{$federations->estado}}</td>   
+                        <td>
+                        {{$federations->id}}
+                        </td>
+                        <td>
+                        {{$federations->nome}}
+                        </td>
+                        <td>
+                        {{$federations->estado}}
+                        </td>   
                     </tr>
                     @endforeach
                 </table>

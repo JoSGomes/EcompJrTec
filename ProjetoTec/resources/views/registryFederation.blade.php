@@ -10,17 +10,16 @@
 </head>
 <body>   
     <form action="{{route('federations.store')}}" method = 'POST'>
-    @csrf
-    @if(count($errors) > 0 )
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <ul class="p-0 m-0" style="list-style: none;">
-                @foreach($errors->all() as $error)
-                <li>{{$error}}</li>
-                @endforeach
-            </ul>
-        </div>
-    @endif
-
+        @csrf
+        @if(count($errors) > 0 )
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <ul class="p-0 m-0" style="list-style: none;">
+                    @foreach($errors->all() as $error)
+                    <li>{{$error}}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <div class="mb-3">
             <label  class="form-label m-3">Nome da Federação</label>
             <input name= "inputFederation" type="text" class="form-control" placeholder="Digite o nome da empresa">
@@ -33,7 +32,6 @@
         <button type="submit" id="registerFederationButton" class=" btn btn-primary m-3">Cadastrar</button>
         </div>    
     </form>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 

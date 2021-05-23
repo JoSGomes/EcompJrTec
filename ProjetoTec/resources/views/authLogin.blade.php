@@ -27,7 +27,7 @@
                     <label class="form-label m-3">E-mail:</label>
                     <input class="form-control" size="50" name="inputEmail" type="text" placeholder="Digite o seu e-mail" required>
                     <label class="form-label m-3">Senha:</label>
-                    <input class="form-control" name="inputSenha" type="text" placeholder="Digite a sua senha" required> 
+                    <input class="form-control" name="inputSenha" type="password" placeholder="Digite a sua senha" required> 
                 </div>
 
                 <button type="submit" id="authEnter" class=" btn btn-primary m-3">Entrar</a>
