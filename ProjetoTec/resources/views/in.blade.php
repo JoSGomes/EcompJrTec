@@ -8,10 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
-    
-
     <style>
-
         div.containerA {
             font-size: 20px;
             width: 450px;
@@ -29,7 +26,6 @@
             border-radius: 10px;
             background-color: #4361EE;
         }
-
         #divButton{
             position:absolute; 
             width: 50%;
@@ -85,13 +81,9 @@
             </div>
         </center>
     </div>
-<body>
-    
+<body>  
     <div class="containerG">
-        <div class="rowG">
-            <div class="containerImage">
-                <img src="imgs/logomarca.png">
-            </div>  
+        <div class="row G justify-content-center">
             <div class="col-4" style="">
                 <div class="containerA">
                     <div class="row" align="justify">                           
