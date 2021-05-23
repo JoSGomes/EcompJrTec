@@ -13,47 +13,85 @@
     <style>
 
         div.containerA {
+            font-size: 20px;
             width: 450px;
             margin: 30px;
             border: 3px solid #000;
+            border-radius: 10px;
+            background-color: #4361EE;
         }
 
         div.containerB {
+            font-size: 20px;
             width: 450px;
             margin: 30px;
             border: 3px solid #000;
+            border-radius: 10px;
+            background-color: #4361EE;
         }
 
         #divButton{
             position:absolute; 
-            width: 40%;
-            margin: 30px;
+            width: 50%;
+            margin: 20px auto;
+            padding-right:50px;
+            padding-top:30px;
             left:90%;
             top:5%;
             transform: translate(-50%, -50%);
         }
-        
-        body{
+        div.containerHeader{
+            width: auto;
+            color: white;
+            height: 120px;
+            margin: 20px auto;
+            padding-top:15px;
+            border-radius: 10px;
             background-color: #4361EE;
+        }
+        div.containerImage{
+            width:20px;
+            color:black;
+            height: 120px;
+            margin: 20px auto;
+            padding-left:100px;
+            padding-top: 150px;
+            transform: translate(50%, 250%);
+        }
+        body{
+            background-color: #4CC9F0;
         }
 
         #portal{
-            width: 40%;       
+            width: 40%; 
+            padding-top:25px;      
         }
     </style>
-
-    <center>
-        <p id="portal">
-            <b>
-                <i>
-                    Portal de Cadastro de Empresas e Federações da EcompJr
-                </i>
-            </b>
-        </p>    
-    </center>
+    <div class="containerHeader">
+        <center>      
+            <p id="portal">
+                <b>
+                    <i style="font-size:20px">
+                        Portal de Cadastro de Empresas e Federações da EcompJr
+                    </i>
+                </b>
+            </p>  
+            <div id="divButton">
+                <a class="btn btn-primary btn-lg" href="/in"> 
+                    <b>
+                        Entrar no Portal Administrativo
+                    </b> 
+                </a>
+            </div>
+        </center>
+    </div>
 <body>
+    
     <div class="containerG">
         <div class="rowG">
+            <div class="containerImage">
+                <img src="imgs/logomarca.png">
+            </div>  
             <div class="col-4" style="">
                 <div class="containerA">
                     <div class="row" align="justify">                           
@@ -167,13 +205,7 @@
         <!--end rowG -->  
     </div>
     <!--end containerG -->
-    <div id="divButton">
-        <a class="btn btn-primary btn-lg" href="/in"> 
-            <b>
-                Entrar no Portal Administrativo
-            </b> 
-        </a>
-    </div>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>
