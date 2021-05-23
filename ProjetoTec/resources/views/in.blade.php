@@ -64,7 +64,7 @@
                                 </b>
                             </center>
                             <p>                                     
-                                <i>
+                                <i style="color: white">
                                 Através da vivência empresarial e trabalho em equipe, formar profissionais <b> inovadores</b>, <b>comprometidos</b> e <b>capazes de vencer desafios</b> futuros.
                                 </i>
                             </p>                         
@@ -76,7 +76,7 @@
                                 </b>
                             </center>
                             <p>                                    
-                                <i>
+                                <i style="color: white">
                                 Ser uma empresa que realiza <b>projetos de impacto</b>, mais <b>conectada ao movimento empresa júnior</b> e com grande reconhecimento <b>dentro e fora</b> da universidade.
                                 </i>   
                             </p>                       
@@ -88,7 +88,7 @@
                                 </b> 
                             </center>
                             <p>                            
-                                <i>
+                                <i style="color: white">
                                 Os valores de uma empresa guiam a conduta da mesma, portanto a EcompJr. Baseia-se nos seguintes valores: <b>Protagonismo, Cooperatividade, Assiduidade, Resiliência, Constância em resultados, Evolução com os erros, Conexão com o Movimento, Foco na Qualidade, Ética e Empatia</b>.
                                 </i>  
                             </p>                            
@@ -106,7 +106,7 @@
                                 </b>                               
                             </center>
                             <p>
-                                <i>
+                                <i style="color: white">
                                 Desenvolvimento de sites de forma criativa, funcional e responsiva, oferecendo a melhor solução para você ou sua empresa.   
                                 </i>
                             </p>                         
@@ -118,7 +118,7 @@
                                 </b>                               
                             </center>
                             <p>
-                                <i>
+                                <i style="color: white">
                                 Impulsione o seu desempenho profissional reduzindo seus gastos. Possibilitamos a você os melhores Sistemas Locais que permitem automatizar com facilidade suas tarefas ou serviços.
                                 </i>
                             </p>
@@ -130,7 +130,7 @@
                                 </b>                     
                             </center>
                             <p>
-                                <i>
+                                <i style="color: white">
                                 Já pensou em ter a sua empresa, serviços e ideias na palma de sua mão? Nós possibilitamos isso desenvolvendo soluções mobile sob medida para você.
                                 </i>
                             </p>
@@ -142,7 +142,7 @@
                                 </b>                              
                             </center>
                             <p>
-                                <i>
+                                <i style="color: white">
                                 Reduza seus gastos impulsionando o seu desempenho profissional. Possibilitamos a você os melhores Sistemas Web que permitem automatizar com facilidade suas tarefas ou serviços.
                                 </i>
                             </p>                
@@ -154,7 +154,7 @@
                                 </b>                               
                             </center>
                             <p>
-                                <i>
+                                <i style="color: white">
                                 Tenha sua Loja Virtual e faça seus produtos atingirem uma clientela ainda maior.
                                 </i>
                             </p>
